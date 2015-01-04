@@ -5,11 +5,8 @@ require 'vendor/autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 
-// Sets up Twitter credentials
-define('CONSUMER_KEY', getenv('CONSUMER_KEY'));
-define('CONSUMER_SECRET', getenv('CONSUMER_SECRET'));
-$access_token = getenv('access_token');
-$access_token_secret = getenv('access_token_secret');
+//Gets Twitter credentials
+require '.credentials.php';
 
 
 // Sets up ImageMagick objects and pulls in cover template
