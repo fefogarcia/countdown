@@ -1,0 +1,257 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"saved",
+				"saved_snaps"
+			],
+			[
+				"save",
+				"savedSnapsPath"
+			],
+			[
+				"recu",
+				"recursive_file_exists"
+			],
+			[
+				"under",
+				"underJson"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 28,
+				"line_ending": "Unix",
+				"name": "<?php"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"packa control",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"conso",
+				"Set Syntax: R Console"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/felipeedoardo/Sites/snapsave/helpers.php",
+		"/Users/felipeedoardo/Dropbox/Sites/snap/get_snaps_cron.php",
+		"/Users/felipeedoardo/Sites/snapsave/index.php",
+		"/Users/felipeedoardo/Sites/snapsave/vendor/jorgenphi/php-snapchat/src/snapchat_agent.php",
+		"/Users/felipeedoardo/Sites/snapsave/vendor/jorgenphi/php-snapchat/src/snapchat.php",
+		"/Users/felipeedoardo/Dropbox/Sites/snap/helpers.php",
+		"/Users/felipeedoardo/Sites/snapsave/Snap.php",
+		"/Users/felipeedoardo/Sites/snapsave/test.php",
+		"/Users/felipeedoardo/Dropbox/data/under.json",
+		"/Users/felipeedoardo/Sites/snaptag/part1.php",
+		"/Users/felipeedoardo/Sites/snaptag/gulpfile.js",
+		"/Users/felipeedoardo/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"timestamp",
+			"filtered",
+			"Snap {$snap->id} from {$snap->sender} ",
+			"var_dump",
+			"}\n",
+			"var_dump",
+			"var_dump\nvar_dump\nvar_dump",
+			"var_dump\nvar_dump",
+			"var_dump",
+			"var_dump\nvar_dump",
+			"var_dump",
+			"'andzinho',\n	"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 28,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"snapch",
+				"vendor/jorgenphi/php-snapchat/src/snapchat_agent.php"
+			],
+			[
+				"snapchat",
+				"vendor/jorgenphi/php-snapchat/src/snapchat.php"
+			],
+			[
+				"part1",
+				"part1.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 152.0,
+	"status_bar_visible": true
+}
