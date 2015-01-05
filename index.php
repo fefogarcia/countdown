@@ -22,9 +22,9 @@ $draw = new ImagickDraw();
 // Get number of days between now and target
 $now = time();
 $your_date = strtotime("2015-03-16");
-$datediff = $now - $your_date;
+$datediff = $your_date - $now;
 $numberOfDays = floor($datediff/(60*60*24));
-$numberOfDays = -$numberOfDays;
+$string = $numberOfDays . ' DIAS';
 
 
 // Sets up font for countdown writing
@@ -34,7 +34,7 @@ $draw->setFillColor('#ffcc00');
 
 
 // Draws number of days on template
-$im->annotateImage($draw, 445, 332, 0, $numberOfDays . ' DIAS');
+$im->annotateImage($draw, 445, 332, 0, $string);
 
 
 // Encodes image blob to base-64
@@ -46,4 +46,4 @@ $encodedBlob = base64_encode($blob);
 $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token, $access_token_secret);
 $content = $connection->post('account/update_profile_banner', ['banner' => $encodedBlob]);
 
-var_dump($content);
+var_dump($string);
