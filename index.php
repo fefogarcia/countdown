@@ -1,5 +1,10 @@
 <?php
 
+
+// Sets timezone to São Paulo, Brazil
+date_default_timezone_set('America/Sao_Paulo');
+
+
 // Sets up external OAuth Library
 require 'vendor/autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
