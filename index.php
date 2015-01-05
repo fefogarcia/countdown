@@ -13,9 +13,12 @@ use Abraham\TwitterOAuth\TwitterOAuth;
 //Gets Twitter credentials
 require '.credentials.php';
 
+// Sets up path
+$pathToAssets = 'assets';
+
 
 // Sets up ImageMagick objects and pulls in cover template
-$im = new Imagick('assets/images/cover.png');
+$im = new Imagick($pathToAssets . '/images/cover.png');
 $draw = new ImagickDraw();
 
 
@@ -28,7 +31,7 @@ $string = $numberOfDays . ' DIAS';
 
 
 // Sets up font for countdown writing
-$draw->setFont('assets/fonts/BebasNeue Regular.ttf');
+$draw->setFont($pathToAssets . '/fonts/BebasNeue Regular.ttf');
 $draw->setFontSize(82);
 $draw->setFillColor('#ffcc00');
 
