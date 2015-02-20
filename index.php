@@ -24,7 +24,7 @@ $draw = new ImagickDraw();
 
 // Get number of days between now and target
 $now = time();
-$your_date = strtotime("2015-03-16");
+$your_date = strtotime("2015-02-26");
 $datediff = $your_date - $now;
 $numberOfDays = floor($datediff/(60*60*24));
 $string = $numberOfDays . ' DIAS';

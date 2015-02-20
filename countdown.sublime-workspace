@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"f",
+				"fileSave"
+			],
+			[
+				"path",
+				"pathToAssets"
+			],
+			[
+				"acce",
+				"access_token_secret"
+			],
+			[
+				"CONSU",
+				"CONSUMER_KEY"
+			],
+			[
+				"acc",
+				"access_token_secret"
+			],
+			[
+				"CONSUM",
+				"CONSUMER_SECRET"
+			],
+			[
+				"twitt",
+				"twitter_data"
+			],
+			[
+				"n",
+				"numberOfDays"
+			],
+			[
+				"number",
+				"numberOfDays"
+			],
+			[
+				"numb",
+				"numberOfDays"
+			],
+			[
 				"saved",
 				"saved_snaps"
 			],
@@ -23,15 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 28,
-				"line_ending": "Unix",
-				"name": "<?php"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -93,6 +124,12 @@
 	},
 	"file_history":
 	[
+		"/Users/felipeedoardo/Sites/countdown/index.php",
+		"/Users/felipeedoardo/Sites/_TESTS/get_image.php",
+		"/Users/felipeedoardo/Sites/countdown/.credentials.php",
+		"/Users/felipeedoardo/Sites/countdown/credentials.php",
+		"/Users/felipeedoardo/Sites/countdown/twitter-helpers.php",
+		"/Users/felipeedoardo/Sites/countdown/vendor/abraham/twitteroauth/.gitignore",
 		"/Users/felipeedoardo/Sites/snapsave/helpers.php",
 		"/Users/felipeedoardo/Dropbox/Sites/snap/get_snaps_cron.php",
 		"/Users/felipeedoardo/Sites/snapsave/index.php",
@@ -122,6 +159,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"environment",
+			"im",
+			"draw",
+			"write",
 			"timestamp",
 			"filtered",
 			"Snap {$snap->id} from {$snap->sender} ",
@@ -151,36 +192,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.php",
-					"settings":
-					{
-						"buffer_size": 28,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28,
-								28
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<?php",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
